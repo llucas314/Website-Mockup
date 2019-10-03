@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+.section1{
+	background-color: #0B3365;
+	
+}
+header{
+	margin: auto 0px;
+}
+.logo{
+	float: left;
+}
+.header_nav{
+	float: right;
+}
+.header_ul{
+	list-style-type: none;
+
+}
+.header_li{
+	display: inline;
+}
+a{
+	text-decoration: none;
+}
