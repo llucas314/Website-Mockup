@@ -10,19 +10,33 @@ body{
 .section1{
 	grid-row: 1/ span 2 ;
 	grid-column: 1 / span 6 ;
-	background-color: #0B3365;
+	background-size: cover;
+	background-image: url(../images/resortnight1.jpg) ;
+	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.6);	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	
+}
+h1,h2,h3{
+	font-family: 'Raleway', sans-serif;
+
+}
+p,button{
+	font-family: 'Lato', sans-serif;
 }
 header{
 	/*height: 15.5%;*/
 	position: relative;
 	flex-grow: 1;
 }
+.selected{
+	color: #8C7764;
+	text-decoration: underline;
+}
 .welcome{
 	flex-grow: 2;
+	color: #FFFFFF;
 }
 .discover{
 	flex-grow: 1;
@@ -30,10 +44,25 @@ header{
 .book-it{
 	flex-grow: 0;
 }
-.logo{
-	/*height: 100%;*/
+.logo-box{
 	position: absolute;
 	left: 5%;
+	height: auto;
+	width: 10%;
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+}
+.logo-p{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+
+}
+.logo{
+	
+	padding-bottom: 100%;
+	width: 100%;
+
 }
 .header_nav{
 
@@ -42,13 +71,32 @@ header{
 	list-style-type: none;
 	position: absolute;
 	right: 8%;
-	top: 50%;
+	top: 25%;
 
 }
 .header_li{
+	font-family: 'Raleway', sans-serif;
 	display: inline;
 	padding: 5px;
 
+}
+.linebreak{
+	position: absolute;
+	left: 5%;
+ 
+}
+.section1-h1{
+	font-size: 64px;
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	letter-spacing: 10px;
+}
+.section1-h2{
+	font-size: 18px;
+	position: absolute;
+	left: 5%;
+	top: 60%;
 }
 a{
 	text-decoration: none;
@@ -57,60 +105,94 @@ a{
 .section2{
 	grid-row: 3 ;
 	grid-column: 1 / span 3;
+	background-color: #FFFFFF;
 }
 .section3{
 	grid-row: 3 ;
-	grid-column: 4 / span 3;	
+	grid-column: 4 / span 3;
+	background-color: #F2F2F2;	
 }
 .section4{
 	grid-row: 4 ;
-	grid-column: 1 / span 2 ;	
+	grid-column: 1 / span 2 ;
+	background-size: cover;
+	background-image: url(../images/resortnight2.jpg);
+	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.6);		
 }
 .section5{
 	grid-row: 4;
-	grid-column: 3 / span 2 ;	
+	grid-column: 3 / span 2 ;
+	background-size: cover;
+	background-image: url(../images/resortnight3.jpg);
+	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.6);		
 }
 .section6{
 	grid-row: 4;
-	grid-column: 5 / span 2;	
+	grid-column: 5 / span 2;
+	background-size: cover;
+	background-image: url(../images/resortnight.jpg);
+	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.6);		
 }
 .section7{
 	grid-row: 5 ;
-	grid-column: 1 / span 6;	
+	grid-column: 1 / span 6;
+	background-position: center;
+	background-size: 100% 370%;
+	background-image: url(../images/blue_bg.png);
 }
 .section8{
 	grid-row: 6;
-	grid-column: 1 / span 2 ;	
+	grid-column: 1 / span 2 ;
+	background-color: #FFFFFF;	
 }
 .section9{
 	grid-row: 6 ;
-	grid-column:  3 / span 2;	
+	grid-column:  3 / span 2;
+	background-color: #FFFFFF;	
 }
 .section10{
 	grid-row: 6 ;
-	grid-column: 5 /span 2 ;	
+	grid-column: 5 /span 2 ;
+	background-position: 50% 25%;
+	background-size: 450% 450%;
+	background-image: url(../images/gold_bg.png);	
 }
 .section11{
 	grid-row: 7;
-	grid-column: 1 / span 2;	
+	grid-column: 1 / span 2;
+	background-position: center;
+	background-size: 100% 370%;
+	background-image: url(../images/blue_bg.png);	
+	
 }
 .section12{
 	grid-row: 7 ;
-	grid-column: 3 / span 4;	
+	grid-column: 3 / span 4;
+	background-size: cover;
+	background-image: url(../images/resort5.jpg);	
+	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
 }
 .section13{
 	grid-row: 8 ;
-	grid-column: 1 / span 2 ;	
+	grid-column: 1 / span 2 ;
+	background-color: #FFFFFF;	
 }
 .section14{
 	grid-row: 8;
-	grid-column: 3 / span 2 ;	
+	grid-column: 3 / span 2 ;
+	background-color: #FFFFFF;	
 }
 .section15{
 	grid-row: 8;
-	grid-column: 5 span / 2;	
+	grid-column: 5 / span 2;
+	background-position: center;
+	background-size: 100% 370%;
+	background-image: url(../images/gold_bg.png);	
 }
 .section16{
 	grid-row: 9 ;
 	grid-column: 1 / span 6 ;	
+}
+.white-h3{
+	color: #FFFFFF;
 }
