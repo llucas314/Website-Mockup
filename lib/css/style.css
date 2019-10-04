@@ -6,6 +6,7 @@ body{
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 4761px;
+	color: #FFFFFF;
 }
 .section1{
 	grid-row: 1/ span 2 ;
@@ -24,6 +25,10 @@ h1,h2,h3{
 }
 p,button{
 	font-family: 'Lato', sans-serif;
+}
+button{
+	background:transparent;
+	border: 1px solid #FFFFFF;
 }
 header{
 	/*height: 15.5%;*/
@@ -83,6 +88,7 @@ header{
 .linebreak{
 	position: absolute;
 	left: 5%;
+	border-color: 
  
 }
 .section1-h1{
@@ -106,6 +112,36 @@ a{
 	grid-row: 3 ;
 	grid-column: 1 / span 3;
 	background-color: #FFFFFF;
+	color: #0B2147;
+}
+.sec-margin{
+	margin: 0 5%;
+}
+.sec2-h1{
+
+}
+.sec2-p{
+	color: #505050;
+
+}
+.sec2-div{
+	display: flex;
+	align-self: center;
+	justify-content: space-between;
+
+}
+.aspect-ration{
+		padding-top: 100%;
+
+}
+.sec2-div-img{
+	width: 5%;
+}
+.sun{
+	width: 7%;
+}
+.sec2-div-p{
+
 }
 .section3{
 	grid-row: 3 ;
@@ -220,4 +256,19 @@ footer{
 	border-top: 2px solid #1B2F60;
 	padding-top: 25px;
 	width: 100%;
+}
+.gold{
+	color: #977B51;
+	border-color: #977B51;
+}
+.gray{
+	color: #404040;
+	border-color: #404040;
+}
+.blue{
+	color: #0F1F41;
+	border-color: #0F1F41;
+}
+.png{
+	background: transparent;
 }
