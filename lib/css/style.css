@@ -160,8 +160,8 @@ a{
 .section11{
 	grid-row: 7;
 	grid-column: 1 / span 2;
-	background-position: center;
-	background-size: 100% 370%;
+	background-position: 50% 25%;
+	background-size: 450% 450%;
 	background-image: url(../images/blue_bg.png);	
 	
 }
@@ -185,14 +185,39 @@ a{
 .section15{
 	grid-row: 8;
 	grid-column: 5 / span 2;
-	background-position: center;
-	background-size: 100% 370%;
+	background-position: 50% 25%;
+	background-size: 450% 450%;
 	background-image: url(../images/gold_bg.png);	
 }
 .section16{
 	grid-row: 9 ;
-	grid-column: 1 / span 6 ;	
+	grid-column: 1 / span 6 ;
+	background-position: center;
+	background-size: 100% 370%;
+	background-image: url(../images/blue_bg.png);	
+}
+.icon{
+	background-color: transparent;
+	border: none;
+	width: 2%;
+
 }
 .white-h3{
 	color: #FFFFFF;
+}
+.footer1{
+display: flex;
+justify-content: space-between;
+}
+footer{
+	position: relative;
+}
+.footer2{
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	color: #FFFFFF;
+	border-top: 2px solid #1B2F60;
+	padding-top: 25px;
+	width: 100%;
 }
