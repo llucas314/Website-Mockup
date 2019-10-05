@@ -21,6 +21,7 @@ body{
 }
 h1,h2,h3{
 	font-family: 'Raleway', sans-serif;
+	letter-spacing: .2vmin;
 
 }
 p,button{
@@ -373,4 +374,24 @@ input.arrow.gold_arrow{
 input.right_arrow.gold_arrow{
 	align-self: flex-end;
 
+}
+div.aside{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10%;
+	padding: 30% 16%;
+}
+h1.aside{
+	font-size: 4.5vmin;
+}
+hr.aside{
+	border: .5px solid;
+    width: 25%;
+    margin: 5% 0;
+    padding: 0;
+}
+p.aside{
+	font-size: 2vmin;
+	letter-spacing: 2.5vmin;
 }
