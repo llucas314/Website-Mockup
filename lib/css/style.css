@@ -90,12 +90,7 @@ section{
 	padding: 5px;
 
 }
-.linebreak{
-	position: absolute;
-	left: 5%;
-	border-color: 
- 
-}
+
 .section1-h1{
 	font-size: 64px;
 	position: absolute;
@@ -288,18 +283,17 @@ footer{
 }
 .png{
 	background: transparent;
-	position: absolute;
-	width: 100%;
+	width: 25%;
 }
 .picbox{
-	width: 17%;
-	height: auto;
+	width: 30%;
+	height: 100%;
 	position: relative;
 }	
-.left-arrow{
+input.rrow.white_arrow{
 	width: 2%;
 }
-.right-arrow{
+input.arrow.white_arrow{
 	width: 2%;
 }
 
@@ -314,6 +308,7 @@ footer{
     justify-content: center; 
     font-size: 2.5vmin;
     letter-spacing: .5vmin;
+    text-align: center;
 }
 .price{
 	grid-row: 3;
@@ -331,20 +326,51 @@ h1.section7{
 	font-size: 4vmin;
 	padding: initial;
 	letter-spacing: .5vmin;
+	background: transparent;
 }
 p.section7{
 	font-size: 2vmin;
 	padding: initial;
 	text-align: center;
 	line-height: 3.5vmin;
+	background: transparent;
 }
-hr.linebreak{
-	
-}
+
 hr.section7{
 	border: 1px solid #977b51;
 	width: 10%;
     margin: 5%;
     padding: 0;
     
+}
+div.packages{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 10% 10% 0% 10%;
+
+}
+h2.packages{
+	letter-spacing: .1vmin;
+    font-size: 3vmin;
+    font-weight: 100;
+    padding: 0;
+}
+p.packages{
+	font-size: 1.7vmin;
+	font-weight: 300;
+}
+p.packages.gray{
+	line-height: 2.6vmin;
+}
+.value{
+	font-size: 5vmin;
+}
+input.arrow.gold_arrow{
+	width: 8%;
+
+}
+input.right_arrow.gold_arrow{
+	align-self: flex-end;
+
 }
