@@ -45,6 +45,7 @@ p{
 	line-height: 3.4vmin;
 
 }
+
 .selected{
 	color: #8C7764;
 	text-decoration: underline;
@@ -155,6 +156,109 @@ img.clock{
 	grid-column: 4 / span 3;
 	background-color: #F2F2F2;	
 }
+aside{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+div.reservation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	flex-basis: 30%;
+}
+div.day{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+}
+.up{
+	width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #FFFFFF;
+}
+div.month{
+	width: 100%;
+	height: 2%;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+
+}
+p.month{
+	font-size: 2vmin;
+	font-weight: 300;
+	margin: 0;
+	border-bottom: .5px solid #F5F5F5;
+	width: 100%;
+	text-align:center;
+	padding: 5% 21%;
+}
+div.guests{
+	width: 100%;
+	height: 2%;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+div.num{
+	width: 100%;
+	height: 5%;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+p.num{
+	color: black;
+	font-size: 7vmin;
+	font-weight: 300;
+}
+input.down-button{
+	width: 20%;
+    padding-bottom: 10%;
+}
+.contact-book{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+
+}
+.contact{
+	text-align: right;
+	margin: 0;
+	font-weight: 300;
+}
+.book{
+	align-self: center;
+	margin: 5% 10%;
+	font-size: 2vmin;
+	text-align: center;
+
+}
+p.contact.blue{
+	font-size: 1.9vmin;
+}
+p.contact.gray{
+	font-size: 1.3vmin;
+}
+p.contact.gray.phone{
+	font-size: 1.7vmin;
+}
 .section4{
 	grid-row: 4 ;
 	grid-column: 1 / span 2 ;
@@ -194,6 +298,8 @@ img.clock{
 	align-items: center;
 	flex-direction: column;
 	padding: 5% 23%;
+		box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
+
 }
 .section8{
 	grid-row: 6;
@@ -278,7 +384,9 @@ input.events-right{
 	grid-column: 1 / span 2;
 	background-position: 50% 25%;
 	background-size: 450% 450%;
-	background-image: url(../images/blue_bg.png);	
+	background-image: url(../images/blue_bg.png);
+		box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
+	
 	
 }
 .section12{
@@ -385,7 +493,8 @@ button.gold{
     font-family: 'Raleway', sans-serif;
     font-size: 1.8vmin;
     font-weight: bold;
-    padding: 3% 9% 4% 9%;
+    padding: 3% 9% 3% 9%;
+    border-radius: 2%;
 }
 h1.section7{
 	font-size: 4vmin;
