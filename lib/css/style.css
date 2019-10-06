@@ -17,7 +17,28 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding: 0 5%;
 	
+}
+.gold{
+	color: #977B51;
+	border-color: #977B51;
+}
+.gray{
+	color: #404040;
+	border-color: #404040;
+}
+.blue{
+	color: #0F1F41;
+	border-color: #0F1F41;
+}
+button.gold{
+	font-size: 1.3vmin;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.8vmin;
+	font-weight: bold;
+	padding: 3% 9% 3% 9%;
+	border-radius: 2%;
 }
 h1,h2,h3{
 	font-family: 'Raleway', sans-serif;
@@ -31,11 +52,7 @@ button{
 	background:transparent;
 	border: 1.5px solid #FFFFFF;
 }
-header{
-	/*height: 15.5%;*/
-	position: relative;
-	flex-grow: 1;
-}
+
 section{
 	padding: 5% 5%;
 	display: flex;
@@ -50,60 +67,120 @@ p{
 	color: #8C7764;
 	text-decoration: underline;
 }
-.welcome{
-	flex-grow: 2;
-	color: #FFFFFF;
-}
-.discover{
-	flex-grow: 1;
-}
-.book-it{
-	flex-grow: 0;
-}
-.logo-box{
-	position: relative;
+
+
+div.logo{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 	font-family: 'Raleway', sans-serif;
 	color: #FFFFFF;
+	position: relative;
+    background-image: url(../images/calluna-logo.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
 }
-.logo-p{
-	position: absolute;
-	top: 50%;
-	left: 5%;
+
 
 }
-.logo{
+p.logo{
 	width: 10%;
 
 }
-.header_nav{
+nav.header{
 
 }
-.header_ul{
+ul.header{
 	list-style-type: none;
 	position: absolute;
 	right: 8%;
-	top: 25%;
+	top: 9%;
 
 }
-.header_li{
+li.header{
 	font-family: 'Raleway', sans-serif;
 	display: inline;
 	padding: 5px;
 
 }
 
-.section1-h1{
-	font-size: 64px;
-	position: absolute;
-	left: 5%;
-	top: 30%;
-	letter-spacing: 10px;
+div.welcome{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
 }
-.section1-h2{
-	font-size: 18px;
-	position: absolute;
-	left: 5%;
-	top: 60%;
+h1.welcome{
+	font-size: 9vmin;
+	letter-spacing: .5vmin;
+}
+hr.welcome{
+	width: 10%;
+	margin: 0;
+	flex-grow: 0
+}
+h2.welcome{
+	font-size: 3vmin;
+	font-weight: 300;
+}
+div.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+div.arrows{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+input.arrows.white_arrow{
+	width: 5%;
+}
+button.radio{
+	width: 1vw;
+	height: 2vh;
+	background-color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 50%;
+	margin: 1%;
+}
+button.radio.hollow{
+	background-color: transparent;
+}
+button.discover{
+	padding: 1% 4%;
+}
+div.book-it{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row: 1fr;
+	justify-content: center;
+	align-items: center;
+}
+div.radio{
+	grid-row: 1;
+	grid-column: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button.book-it{
+	grid-row: 1;
+	grid-column: 3;
+	justify-self: end;
+    font-size: 2.8vmin;
+    letter-spacing: .2vmin;
+    background-color: #0F1F41;
+    margin: 0;
+    padding: 3% 5% 3% 9%;
+    border: none;
+    color: #FFFFFF;
+
 }
 a{
 	text-decoration: none;
@@ -139,9 +216,9 @@ p.sec2{
 }
 hr.sec2{
 	border: .5px solid;
-    width: 12%;
-    margin: 5% 0;
-    padding: 0;
+	width: 12%;
+	margin: 5% 0;
+	padding: 0;
 }
 img.sun{
 	width: 13%;
@@ -179,10 +256,10 @@ div.day{
 }
 .up{
 	width: 0; 
-  height: 0; 
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #FFFFFF;
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #FFFFFF;
 }
 div.month{
 	width: 100%;
@@ -228,7 +305,7 @@ p.num{
 }
 input.down-button{
 	width: 20%;
-    padding-bottom: 10%;
+	padding-bottom: 10%;
 }
 .contact-book{
 	display: flex;
@@ -298,7 +375,7 @@ p.contact.gray.phone{
 	align-items: center;
 	flex-direction: column;
 	padding: 5% 23%;
-		box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
+	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
 
 }
 .section8{
@@ -316,7 +393,7 @@ div.events{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	max-height: 33em;
-		padding-left: 2%;
+	padding-left: 2%;
 
 }
 div.events.right{
@@ -344,9 +421,9 @@ p.date{
 }
 hr.calendar{
 	border-top: .5px solid;
-    width: 75%;
-    margin: 9% 0 11% 0;
-    padding: 0;
+	width: 75%;
+	margin: 9% 0 11% 0;
+	padding: 0;
 }
 h2.events{
 	grid-row: 1;
@@ -385,7 +462,7 @@ input.events-right{
 	background-position: 50% 25%;
 	background-size: 450% 450%;
 	background-image: url(../images/blue_bg.png);
-		box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
+	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
 	
 	
 }
@@ -397,7 +474,7 @@ input.events-right{
 	box-shadow:inset 0 0 0 2000px rgba(14,33,75,0.7);
 	display: flex;
 	align-items: center;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 .section13{
 	grid-row: 8 ;
@@ -430,42 +507,26 @@ input.events-right{
 
 }
 .footer1{
-display: flex;
-justify-content: space-between;
-}
-footer{
-	position: relative;
-}
-.footer2{
-	position: absolute;
-	bottom: 5%;
-	left: 5%;
-	color: #FFFFFF;
-	border-top: 2px solid #1B2F60;
-	padding-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 	width: 100%;
 }
-.gold{
-	color: #977B51;
-	border-color: #977B51;
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
-.gray{
-	color: #404040;
-	border-color: #404040;
+.footer2{
+	
 }
-.blue{
-	color: #0F1F41;
-	border-color: #0F1F41;
-}
+
 .png{
 	background: transparent;
 	width: 25%;
 }
-.picbox{
-	width: 30%;
-	height: 100%;
-	position: relative;
-}	
+
 input.arrow.white_arrow{
 	width: 2%;
 }
@@ -478,24 +539,17 @@ input.arrow.white_arrow{
 .rooms{
 	grid-row: 2;
 	display: flex;
-    justify-content: center; 
-    font-size: 2.5vmin;
-    letter-spacing: .5vmin;
-    text-align: center;
+	justify-content: center; 
+	font-size: 2.5vmin;
+	letter-spacing: .5vmin;
+	text-align: center;
 }
 .price{
 	grid-row: 3;
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
-button.gold{
-	font-size: 1.3vmin;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.8vmin;
-    font-weight: bold;
-    padding: 3% 9% 3% 9%;
-    border-radius: 2%;
-}
+
 h1.section7{
 	font-size: 4vmin;
 	padding: initial;
@@ -513,9 +567,9 @@ p.section7{
 hr.section7{
 	border: 1px solid #977b51;
 	width: 10%;
-    margin: 5%;
-    padding: 0;
-    
+	margin: 5%;
+	padding: 0;
+	
 }
 div.packages{
 	display: flex;
@@ -526,9 +580,9 @@ div.packages{
 }
 h2.packages{
 	letter-spacing: .1vmin;
-    font-size: 3vmin;
-    font-weight: 100;
-    padding: 0;
+	font-size: 3vmin;
+	font-weight: 100;
+	padding: 0;
 }
 p.packages{
 	font-size: 1.7vmin;
@@ -559,9 +613,9 @@ h1.aside{
 }
 hr.aside{
 	border: .5px solid;
-    width: 25%;
-    margin: 5% 0;
-    padding: 0;
+	width: 25%;
+	margin: 5% 0;
+	padding: 0;
 }
 p.aside{
 	font-size: 2vmin;
@@ -569,7 +623,49 @@ p.aside{
 }
 .wrapper{
 	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
-.ghost{
-	width: 100%;
+.picbox {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100%;
+    width: 20%;
+    margin: 0%;
+    position: relative;
+    background-image: url(../images/calluna-logo.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav.social{
+max-width: 250px;
+}
+p.footer{
+	font-size: 1.6vmin;
+}
+ul.footer{
+	list-style-type: none;
+	font-size: 1.7vmin;
+	font-family: Lato, sans-serif;
+	padding: 0;
+	line-height: 3vmin;
+}
+hr.footer{
+	width: 25%;
+	margin-left: 0;
+}
+li.social{
+	display: inline;
+}
+a.social{
+	display: block;
+	background-image: url(../images/twitter.png);
+	height: 30px;
+	width: 30px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
