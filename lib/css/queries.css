@@ -1,0 +1,85 @@
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media screen and (max-width: 640px) {
+	body{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+    	height: 100%;
+	}
+	section{
+		height: 80vh;
+    	width: 100%;
+    	border-bottom: 1px solid #977B51;
+	}
+	.section1{
+		align-items: center;
+	}
+	.hide,div.logo.hide,div.arrows.hide{
+		display: none;
+	}
+	.show{
+		display: initial;
+	}
+	div.welcome{
+		align-items: center;
+	}
+	button.gold{
+		font-size: 4vw;
+
+	}
+
+	h1, h1.section7,h2,h3,h1.aside,h2.packages{
+		font-size: 4vh;
+		text-align: center;
+	}
+	div.aside{
+		align-items: center;
+	}
+	p, p.sec2,p.section7,p.aside,p.packages.gray, p.packages{
+		font-size: 3vh;
+		line-height: 4vh;
+		text-align: justify;
+		font-weight: 300;
+	}
+	p.events{
+		font-size: 2.5vh;
+	    line-height: 3vh;
+	    padding-right: 2vh;
+	}
+	.png{
+		width: 10%;
+	}
+	.footer1{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center
+	}
+	a{
+		font-size: 2vh;
+    	line-height: 3vh;
+	}
+	.footer2{
+		height: 40vh;
+	}
+	 p.footer{
+	 	font-size: 2vh;
+	 }
+	 h1.footer{
+	 	font-size: 3vh;
+	 }
+	 a.social{
+	 	height: 4vh;
+	 	width: 4vh;
+	 }
+	 hr.footer,hr.sec2{
+	 	width: 100%;
+	 }
+
+	
+}

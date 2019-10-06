@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+
 }
 body{
 	display: grid;
@@ -39,6 +40,7 @@ button.gold{
 	font-weight: bold;
 	padding: 3% 9% 3% 9%;
 	border-radius: 2%;
+	transition: all 500ms ease-in;
 }
 h1,h2,h3{
 	font-family: 'Raleway', sans-serif;
@@ -80,10 +82,16 @@ div.logo{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 18vmin;
-    height: 18vmin;
+    width: 12vw;
+    height: 12vw;
+    min-width: 118px;
+    min-height: 118px;
+    transition: all 500ms ease-in;
 }
 
+hr{
+	transition: all 500ms ease-in;
+}
 
 }
 p.logo{
@@ -106,6 +114,24 @@ li.header{
 	padding: 5px;
 
 }
+a.header{
+	font-size: 1.5vw;
+}
+.menu{
+	  position: fixed;
+	  top: 3vh;
+	  right: 3vh;
+	  z-index: 1;
+	  height: 5vh;
+	  width: 5vh;
+	  background-image: url(../images/hamburger.png);
+	  background-size: 100%;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  display: none;
+	  transition: all 500ms ease-in;
+}
+
 
 div.welcome{
 	display: flex;
@@ -114,8 +140,9 @@ div.welcome{
 	align-items: flex-start;
 }
 h1.welcome{
-	font-size: 9vmin;
-	letter-spacing: .5vmin;
+	font-size: 5vw;
+	letter-spacing: .5vw;
+	transition: all 500ms ease-in;
 }
 hr.welcome{
 	width: 10%;
