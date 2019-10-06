@@ -80,8 +80,8 @@ div.logo{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 18vmin;
+    height: 18vmin;
 }
 
 
@@ -145,7 +145,7 @@ button.radio{
 	width: 1vw;
 	height: 2vh;
 	background-color: #FFFFFF;
-	border: 2px solid #FFFFFF;
+	border: .1vmin solid #FFFFFF;
 	border-radius: 50%;
 	margin: 1%;
 }
@@ -511,6 +511,7 @@ input.events-right{
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 100%;
+	border-bottom: 1px solid #1B2F60;
 }
 footer{
 	display: flex;
@@ -657,15 +658,30 @@ hr.footer{
 	width: 25%;
 	margin-left: 0;
 }
-li.social{
-	display: inline;
+
+div.social{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 a.social{
 	display: block;
-	background-image: url(../images/twitter.png);
-	height: 30px;
-	width: 30px;
+	height: 4vh;
+    width: 2vw;
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
+	margin: 3%;
+}
+#twitter{
+	background-image: url(../images/twitter.png);
+}
+#gplus{
+	background-image: url(../images/gplus.png);
+}
+#facebook{
+	background-image: url(../images/fb.png);
+}
+#tumblr{
+	background-image: url(../images/tumblr.png);
 }
