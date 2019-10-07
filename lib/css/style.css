@@ -82,8 +82,8 @@ div.logo{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 12vw;
-    height: 12vw;
+    width: 8vw;
+    height: 8vw;
     min-width: 118px;
     min-height: 118px;
     transition: all 500ms ease-in;
@@ -95,6 +95,7 @@ hr{
 
 }
 p.logo{
+	font-size: 1vh;
 	width: 10%;
 
 }
@@ -115,7 +116,7 @@ li.header{
 
 }
 a.header{
-	font-size: 1.5vw;
+	font-size: 1vw;
 }
 .menu{
 	  position: fixed;
@@ -715,4 +716,7 @@ a.social{
 }
 #tumblr{
 	background-image: url(../images/tumblr.png);
+}
+main.soon{
+	
 }
