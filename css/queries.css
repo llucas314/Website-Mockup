@@ -31,7 +31,17 @@
 		font-size: 4vw;
 
 	}
-
+	div.month {
+   		 width: 100%;
+   		 height: 5vh;
+	}
+	div.guests {
+  		width: 13vh;
+  		height: 5vh;
+	}
+	img.clock {
+	    margin-left: 2%;
+	}
 	h1, h1.section7,h2,h3,h1.aside,h2.packages{
 		font-size: 4vh;
 		text-align: center;

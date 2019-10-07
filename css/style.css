@@ -118,11 +118,11 @@ li.header{
 a.header{
 	font-size: 1vw;
 }
-.menu{
+.menu-wrapper{
 	  position: fixed;
 	  top: 3vh;
 	  right: 3vh;
-	  z-index: 1;
+	  z-index: 2;
 	  height: 5vh;
 	  width: 5vh;
 	  background-image: url(../images/hamburger.png);
@@ -132,8 +132,41 @@ a.header{
 	  display: none;
 	  transition: all 500ms ease-in;
 }
+.menu-wrapper .toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  cursor: pointer;
+  width: 5vh;
+  height: 5vh;
+  opacity: 0;
+}
 
-
+div.menu{
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(24, 39, 51 , 0.85);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center; 
+}
+.menu-wrap .toggler:checked + div.menu {
+	visibility: visible;
+  }
+ul.menu{
+	list-style-type: none;
+}
+a.menu{
+	font-size: 4vh;
+    line-height: 7vh;
+}
 div.welcome{
 	display: flex;
 	flex-direction: column;
