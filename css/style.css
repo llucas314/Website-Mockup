@@ -157,7 +157,7 @@ div.menu{
 	justify-content: space-around;
 	align-items: center; 
 }
-.menu-wrap .toggler:checked + div.menu {
+input[type=checkbox]checked: ~ div.menu {
 	visibility: visible;
   }
 ul.menu{
