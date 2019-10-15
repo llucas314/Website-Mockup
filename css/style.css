@@ -156,6 +156,7 @@ div.menu{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center; 
+	transition: all 0.6s ease-in-out 0s;
 }
 input[type=checkbox]checked: ~ div.menu {
 	visibility: visible;
