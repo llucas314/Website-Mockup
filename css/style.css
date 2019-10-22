@@ -42,6 +42,11 @@ button.gold{
 	border-radius: 2%;
 	transition: all 500ms ease-in;
 }
+button.gold:hover{
+	background-color: #977B51;
+	color: #0F1F41;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 h1,h2,h3{
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: .2vmin;
@@ -87,6 +92,9 @@ div.logo{
     min-width: 118px;
     min-height: 118px;
     transition: all 500ms ease-in;
+}
+li:hover{
+	color: #8C7764;
 }
 
 hr{
