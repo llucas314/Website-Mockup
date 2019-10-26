@@ -18,6 +18,7 @@
 	button.radio {
 		width: 10px;
 		height: 10px;
+		padding: 1px;
 	}
 	.section1{
 		align-items: center;
