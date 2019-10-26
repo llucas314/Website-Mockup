@@ -15,6 +15,10 @@
     	width: 100%;
     	border-bottom: 1px solid #977B51;
 	}
+	button.radio {
+		width: 10px;
+		height: 10px;
+	}
 	.section1{
 		align-items: center;
 	}
